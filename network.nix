@@ -7,5 +7,6 @@
     deployment.targetHost = "159.65.168.64";
     deployment.targetUser = "root";
     networking.hostName = name;
+    networking.firewall.allowedTCPPorts = [ 80 ];
   };
 }
